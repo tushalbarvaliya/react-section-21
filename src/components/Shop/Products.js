@@ -1,24 +1,18 @@
-import ProductItem from "./ProductItem";
-import classes from "./Products.module.css";
+import ProductItem from './ProductItem';
+import classes from './Products.module.css';
 
 const DUMMY_PRODUCTS = [
   {
-    id: "p1",
+    id: 'p1',
     price: 6,
-    title: "Test",
-    description: "This is a first product - amazing!",
+    title: 'My First Book',
+    description: 'The first book I ever wrote',
   },
   {
-    id: "p2",
+    id: 'p2',
     price: 5,
-    title: "Test2",
-    description: "This is a second product - amazing!",
-  },
-  {
-    id: "p3",
-    price: 7,
-    title: "Test3",
-    description: "This is a third product - amazing!",
+    title: 'My Second Book',
+    description: 'The second book I ever wrote',
   },
 ];
 
